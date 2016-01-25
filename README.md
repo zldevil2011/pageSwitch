@@ -6,9 +6,6 @@ h1,body,html{padding: 0;margin: 0;}
 
 html,body{height: 100%;overflow: hidden;}
 
-#container{height: 100%;position: relative;}
-
-.section{height: 100%;position: relative;}
 
 首先定义一个容器,div #container
 
