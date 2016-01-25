@@ -1,15 +1,22 @@
 这是一个网页全屏滚动的插件
 也是目前比较流行的网页展示方式
 
+样式设计：
+h1,body,html{padding: 0;margin: 0;}
+
+html,body{height: 100%;overflow: hidden;}
+
+#container{height: 100%;position: relative;}
+
+.section{height: 100%;position: relative;}
+
 首先定义一个容器,div #container
 
 然后定义每一页的内容 div #section页码 div .section
 
 初始化一个section为active
 
-h1,body,html{padding: 0;margin: 0;}
 
-html,body{height: 100%;overflow: hidden;}
 
 
 
