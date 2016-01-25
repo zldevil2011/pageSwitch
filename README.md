@@ -11,31 +11,7 @@ h1,body,html{padding: 0;margin: 0;}
 
 html,body{height: 100%;overflow: hidden;}
 
-#container, .section{height: 100%;position: relative;}
-
-<div id="container">
-
-    <div class="section" id="section0">		
-	
-	</div>
-	
-    <div class="section" id="section1">	
-	
-	</div>
-	
-	<div class="section" id="section2">
-	
-	</div>
-	
-	<div class="section" id="section3">
-	
-	</div>
-	
-	<div class="section active" id="section4">
-	
-	</div>
-	
-</div>
+ID为container和类为section{height: 100%;position: relative;}
 
 配置参数：
 var defaults = {
