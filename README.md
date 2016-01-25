@@ -11,13 +11,13 @@ h1,body,html{padding: 0;margin: 0;}
 
 html,body{height: 100%;overflow: hidden;}
 
-#container, .section{height: 100%;position: relative;}
+
 
 <div id="container">
 
     <div class="section" id="section0">		
 	
-	</div>
+    </div>
 	
     <div class="section" id="section1">	
 	
