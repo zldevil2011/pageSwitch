@@ -6,40 +6,16 @@ h1,body,html{padding: 0;margin: 0;}
 
 html,body{height: 100%;overflow: hidden;}
 
+#container{height: 100%;position: relative;}
+
+.section{height: 100%;position: relative;}
+
 
 首先定义一个容器,div #container
 
 然后定义每一页的内容 div #section页码 div .section
 
 初始化一个section为active
-
-
-
-
-
-<div id="container">
-
-    <div class="section" id="section0">		
-	
-    </div>
-	
-    <div class="section" id="section1">	
-	
-	</div>
-	
-	<div class="section" id="section2">
-	
-	</div>
-	
-	<div class="section" id="section3">
-	
-	</div>
-	
-	<div class="section active" id="section4">
-	
-	</div>
-	
-</div>
 
 配置参数：
 var defaults = {
